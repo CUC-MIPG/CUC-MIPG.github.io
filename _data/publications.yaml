@@ -1,0 +1,228 @@
+---
+- id: mao2023mag
+  type: paper-conference
+  author:
+  - family: Mao
+    given: Qi
+  - family: Chen
+    given: Lan
+  - family: Gu
+    given: Yuchao
+  - family: Fang
+    given: Zhen
+  - family: Shou
+    given: Mike Zheng
+  issued:
+  - year: 2023
+  title:  MAG-Edit:Localized Image Editing in Complex Scenarios via Mask-Based Attention-Adjusted Guidance
+  container-title: arXiv preprint arXiv:2312.11396
+  publisher: 
+  page: 
+  volume: 
+
+- id: mao2022continuous
+  type: article-journal
+  author:
+  - family: Mao
+    given: Qi
+  - family: Tseng
+    given: Hung-Yu
+  - family: Lee
+    given: Hsin-Ying
+  - family: Huang
+    given: Jia-Bin
+  - family: Ma
+    given: Siwei
+  - family: Yang
+    given: Ming-Hsuan
+  issued:
+  - year: 2022
+  title: Continuous and diverse image-to-image translation via signed attribute vectors
+  container-title: International Journal of Computer Vision
+  volume: '130'
+  note: 
+
+- id: wu2023zgaming
+  type: paper-conference
+  author:
+  - family: Wu
+    given: Jiangkai
+  - family: Guan
+    given: Yu
+  - family: Mao
+    given: Qi
+  - family: Cui
+    given: Yong
+  - family: Guo
+    given: Zongming
+  - family: Zhang
+    given: Xinggong
+  issued:
+  - year: 2023
+  title: ZGaming:Zero-latency 3D cloud gaming by image prediction
+  container-title: Proceedings of the ACM SIGCOMM 2023 Conference
+  publisher: 
+  page: '710-723'
+  volume: 
+
+- id: ma2023overview
+  type: paper-conference
+  author:
+  - family: Ma
+    given: Siwei
+  - family: Guo
+    given: Junlong
+  - family: Wang
+    given: Ruofan
+  - family: Chang
+    given: Jianhui
+  - family: Mao
+    given: Qi
+  - family: Huang
+    given: Zhimeng
+  - family: Jia
+    given: Chuanmin
+  issued:
+  - year: 2023
+  title: Overview of intelligent video coding:from model-based to learning-based approaches
+  container-title: Visual Intelligence
+  publisher: Springer
+  page: '15'
+  volume: '1'
+
+- id: mao2023extreme
+  type: paper-conference
+  author:
+  - family: Mao
+    given: Qi
+  - family: Yang
+    given: Tinghan
+  - family: Zhang
+    given: Yinuo
+  - family: Pan
+    given: Shuyin
+  - family: Wang
+    given: Meng
+  - family: Wang
+    given: Shiqi
+  - family: Ma
+    given: Siwei
+  issued:
+  - year: 2023
+  title: Extreme Image Compression using Fine-tuned VQGAN Models
+  container-title: arXiv preprint arXiv:2307.08265
+  publisher: 
+  page: 
+  volume: 
+
+- id: chang2023semantic
+  type: article-journal
+  author:
+  - family: Chang
+    given: Jianhui
+  - family: Zhang
+    given: Jian
+  - family: Li
+    given: Jiguo
+  - family: Wang
+    given: Shiqi
+  - family: Mao
+    given: Qi
+  - family: Jia
+    given: Chuanmin
+  - family: Ma
+    given: Siwei
+  - family: Gao
+    given: Wen
+  issued:
+  - year: 2023
+  title: Semantic-Aware Visual Decomposition for Image Coding
+  container-title: International Journal of Computer Vision
+  volume:
+  note: 
+
+- id: wang2023extreme
+  type: paper-conference
+  author:
+  - family: Wang
+    given: Ruofan
+  - family: Mao
+    given: Qi
+  - family: Jia
+    given: Chuanmin
+  - family: Wang
+    given: Ronggang
+  - family: Ma
+    given: Siwei
+  issued:
+  - year: 2023
+  title: Extreme Generative Human-Oriented Video Coding via Motion Representation Compression
+  container-title: 2023 IEEE International Symposium on Circuits and Systems (ISCAS)
+  publisher: IEEE
+  page: '1-5'
+  volume: 
+
+- id: mao2023enhancing
+  type: paper-conference
+  author:
+  - family: Mao
+    given: Qi
+  - family: Ma
+    given: Siwei
+  issued:
+  - year: 2023
+  title: Enhancing Style-Guided Image-to-Image Translation via Self-Supervised Metric Learning
+  container-title: IEEE Transactions on Multimedia
+  publisher: IEEE
+  page: 
+  volume: 
+
+- id: wang2022disentangled
+  type: paper-conference
+  author:
+  - family: Wang
+    given: Ruofan
+  - family: Mao
+    given: Qi
+  - family: Wang
+    given: Shiqi
+  - family: Jia
+    given: Chuanmin
+  - family: Wang
+    given: Ronggang
+  - family: Ma
+    given: Siwei
+  issued:
+  - year: 2022
+  title: Disentangled Visual Representations for Extreme Human Body Video Compression
+  container-title: 2022 IEEE International Conference on Multimedia and Expo (ICME)
+  publisher: IEEE
+  page: '1-6'
+  volume: 
+
+- id: chang2022conceptual
+  type: paper-conference
+  author:
+  - family: Chang
+    given: Jianhui
+  - family: Zhao
+    given: Zhenghui
+  - family: Jia
+    given: Chuanmin
+  - family: Wang
+    given: Shiqi
+  - family: Yang
+    given: Lingbo
+  - family: Mao
+    given: Qi
+  - family: Zhang
+    given: Jian
+  - family: Ma
+    given: Siwei
+  issued:
+  - year: 2022
+  title: Conceptual compression via deep structure and texture synthesis
+  container-title: IEEE Transactions on Image Processing
+  publisher: IEEE
+  page: '2809-2823'
+  volume: '31'
