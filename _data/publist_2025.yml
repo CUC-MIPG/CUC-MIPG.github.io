@@ -1,0 +1,11 @@
+- title: "UniVid: Unifying Vision Tasks with Pre-trained Video Generation Models"
+  authors: Lan Chen, Yuchao Gu, Qi Mao
+  venue: "The IEEE/CVF Winter Conference on Applications of Computer Vision 2026 (WACV 2026)"
+  link:
+    url: https://arxiv.org/abs/2509.21760
+    display: \[Paper\]
+  code:
+    url: https://github.com/CUC-MIPG/UniVid
+    display: \[Code\]
+  highlight: 0
+  year: 2025

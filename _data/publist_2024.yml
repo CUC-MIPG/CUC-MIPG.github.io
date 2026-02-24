@@ -1,0 +1,47 @@
+- title: "Unifying Generation and Compression: Ultra-low bitrate Image Coding Via Multi-stage Transformer"
+  authors: Naifu Xue, Qi Mao, Zijian Wang, Yuan Zhang, Siwei Ma
+  venue: "IEEE International Conference on Multimedia and Expo (ICME)"
+  link:
+    url: https://ieeexplore.ieee.org/document/10687549
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+  highlight: 0
+  year: 2024
+
+- title: "Beyond Aligned Target Face: StyleGAN-Based Face-Swapping via Inverted Identity Learning"
+  authors: Yuanhang Li, Qi Mao, Libiao Jin
+  venue: "IEEE Internrnational Confeference on Multimedia andExpo Workrkshops (ICMEW)"
+  link:
+    url: https://www.computer.org/csdl/proceedings-article/icmew/2024/10645437/1ZNT6XcHfA4
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+  highlight: 0
+  year: 2024
+
+- title: "MAG-Edit: Localized Image Editing in Complex Scenarios via Mask-Based Attention-Adjusted Guidance"
+  authors: Qi Mao, Lan Chen, Yuchao Gu, Zhen Fang, Mike Zheng Shou
+  venue: "The 32nd ACM International Conference on Multimedia (ACM MM)"
+  link:
+    url: https://dl.acm.org/doi/10.1145/3664647.3680830
+    display: \[Paper\]
+  code:
+    url: https://github.com/HelenMao/MAG-Edit
+    display: \[Code\]
+  highlight: 0
+  year: 2024
+
+- title: "Extreme Image Compression using Fine-tuned VQGANs"
+  authors: Qi Mao, Tinghan Yang, Yinuo Zhang, Zijian Wang, Meng Wang, Shiqi Wang, Siwei Ma
+  venue: "2024 Data Compression Conference (DCC)"
+  link:
+    url: https://arxiv.org/abs/2307.08265
+    display: \[Paper\]
+  code:
+    url: https://github.com/CUC-MIPG/VQGAN-Compression
+    display: \[Code\]
+  highlight: 0
+  year: 2024

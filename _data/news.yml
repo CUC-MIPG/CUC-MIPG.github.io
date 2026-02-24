@@ -1,0 +1,44 @@
+# 每条可加 link（选填），有 link 时标题显示为可点链接（如公众号推文）
+# 公众号推文示例：复制推送的标题和链接即可
+# - date: 2025-01-15
+#   headline: "我校 MIPG 实验室最新成果"
+#   link: "https://mp.weixin.qq.com/s/xxxxx"
+
+- date: February 2026
+  headline: "We have 1 paper accepted to CVPR 2026!"
+
+- date: December 2025
+  headline: "ICME 2026 Special Session Call for Paper: Generative AI and Intelligent Agents"
+  link: "https://mp.weixin.qq.com/s/oqcjyq1TH3H3JocGJChRcw"
+
+- date: November 2025
+  headline: "We have 1 paper accepted to WACV 2026!"
+  link: "https://mp.weixin.qq.com/s/hcIq79Wxgvtpio2r9eh6sg"
+
+- date: November 2025
+  headline: "One Member is awarded first prize at the Golden Rose Academic Forum!"
+  link: "https://mp.weixin.qq.com/s/WzPagChnciD3kpAExVkoiQ"
+
+- date: October 2025
+  headline: "CUC-MIPG  is seeking undergraduate students on an ongoing basis."
+  link: "https://mp.weixin.qq.com/s/srgpwp2CmeBYdPL5EH-x9A"
+
+- date: September 2025
+  headline: "TIP 2025 Multimodal Large Foundational Models Enabling Ultra-Low Bitrate Image Compression"
+  link: "https://mp.weixin.qq.com/s/wBJeorbiGZaAGBd95ejfWA"
+
+- date: September 2025
+  headline: "We have 1 paper accepted to TMM!"
+  link: "https://mp.weixin.qq.com/s/fZeYfSva_UrZdGczOvYiwA"
+
+- date: May 2024
+  headline: "We have 1 paper accepted to ACM MM 2024!"
+
+- date: March 2024
+  headline: "We have 1 paper accepted to ICME 2024 and 1 paper accepted to ICMEW!"
+
+- date: January 2024
+  headline: "We have 1 paper accepted to DCC 2024!"
+
+
+

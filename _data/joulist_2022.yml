@@ -1,0 +1,11 @@
+- title: "Continuous and Diverse Image-to-Image Translation via Signed Attribute Vectors"
+  authors: Qi Mao, Hung-Yu Tseng, Hsin-Ying Lee, Jia-Bin Huang, Siwei Ma, Ming-Hsuan Yang
+  venue: "Internrnational Journrnal of ComputerVision (IJCV)"
+  link:
+    url: https://dl.acm.org/doi/10.1007/s11263-021-01557-6
+    display: \[Paper\]
+  code:
+    url: https://github.com/HelenMao/SAVI2I
+    display: \[Code\]
+  highlight: 0
+  year: 2022

@@ -1,0 +1,67 @@
+---
+layout: default
+---
+<div id="joining-page" class="col-sm-12">
+  {% comment %} 顶部：连续向左滚动的图片（无缝循环）{% endcomment %}
+  {% if site.data.joining_slides and site.data.joining_slides.size > 0 %}
+  <div class="joining-header-carousel joining-carousel--continuous" id="joiningHeaderCarousel" data-slide-count="{{ site.data.joining_slides.size }}">
+    <div class="joining-header-carousel-track">
+      {% for slide in site.data.joining_slides %}
+      <div class="joining-header-carousel-slide">
+        <div class="joining-slide-image">
+          <img src="{{ slide.image | prepend: site.baseurl | prepend: site.url }}" class="img-responsive" alt="Joining MIPG">
+        </div>
+        {% if slide.time or slide.location %}
+        <div class="joining-slide-caption">
+          {% if slide.time %}<span class="joining-meta"><strong>Time: </strong> {{ slide.time }}</span>{% endif %}
+          {% if slide.location %}<span class="joining-meta"><strong>Location: </strong> {{ slide.location }}</span>{% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+      {% for slide in site.data.joining_slides %}
+      <div class="joining-header-carousel-slide">
+        <div class="joining-slide-image">
+          <img src="{{ slide.image | prepend: site.baseurl | prepend: site.url }}" class="img-responsive" alt="Joining MIPG">
+        </div>
+        {% if slide.time or slide.location %}
+        <div class="joining-slide-caption">
+          {% if slide.time %}<span class="joining-meta"><strong>Time: </strong> {{ slide.time }}</span>{% endif %}
+          {% if slide.location %}<span class="joining-meta"><strong>Location: </strong> {{ slide.location }}</span>{% endif %}
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <script>
+    (function() {
+      var carousel = document.getElementById('joiningHeaderCarousel');
+      if (!carousel) return;
+      var track = carousel.querySelector('.joining-header-carousel-track');
+      var slides = track.querySelectorAll('.joining-header-carousel-slide');
+      var n = slides.length / 2;
+      if (n < 1) return;
+      var slidePct = 25;
+      track.style.width = (50 * n) + '%';
+      for (var i = 0; i < slides.length; i++) slides[i].style.width = slidePct + '%';
+      var start = 0;
+      var duration = 25000;
+      function step(t) {
+        start = start || t;
+        var elapsed = t - start;
+        var progress = (elapsed % duration) / duration;
+        track.style.transform = 'translateX(-' + (progress * 50) + '%)';
+        requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    })();
+  </script>
+  {% else %}
+  <img src="{{ site.url }}{{ site.baseurl }}/images/mipg_photos/2024.jpg" class="img-responsive joining-fallback-img" alt="Joining MIPG">
+  {% endif %}
+
+  <div class="joining-content">
+    {{ content }}
+  </div>
+</div>

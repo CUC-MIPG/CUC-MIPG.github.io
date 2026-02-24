@@ -1,0 +1,13 @@
+# Join Us 页头图轮播：每项可填 image、time（拍摄时间）、location（拍摄地点），时间地点随图滚动
+- image: "/images/mipg_photos/2024.jpg"
+  time: "2024"
+  location: "Fragrant Hills Park, Beijing"
+- image: "/images/mipg_photos/2025_weihai1.jpg"
+  time: "2025"
+  location: "Weihai, Shandong"
+- image: "/images/mipg_photos/2025_weihai2.jpg"
+  time: "2025"
+  location: "Weihai, Shandong"
+- image: "/images/mipg_photos/2025_christmas.jpg"
+  time: "2025"
+  location: "Conference Room, 15th Floor, SKLMCC"

@@ -1,0 +1,16 @@
+<div class="well">
+<h4>News</h4>
+
+{% for article in site.data.news limit:6 %}
+<p>
+  <b>{{ article.date }}</b><br>
+  {% if article.link %}
+  <a href="{{ article.link }}" target="_blank" rel="noopener noreferrer">{{ article.headline | markdownify | strip_html }}</a>
+  {% else %}
+  {{ article.headline | markdownify }}
+  {% endif %}
+</p>
+{% endfor %}
+
+<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
+</div>

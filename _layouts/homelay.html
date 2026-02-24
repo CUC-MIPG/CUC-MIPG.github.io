@@ -1,0 +1,72 @@
+---
+layout: default
+---
+{% comment %} 首屏：轮播（叠加效果），限制在内容区宽度内 {% endcomment %}
+<div class="col-sm-12 home-hero-wrap">
+  {% if site.data.header_slides and site.data.header_slides.size > 0 %}
+  <div class="home-header-carousel" id="homeHeaderCarousel">
+    <div class="home-carousel-bg" aria-hidden="true">
+      <img src="{{ site.data.header_slides[0].image | prepend: site.baseurl | prepend: site.url }}" alt="">
+    </div>
+    <div class="home-header-carousel-track" style="width: {{ site.data.header_slides.size | times: 100 }}%;">
+      {% for slide in site.data.header_slides %}
+      <div class="home-header-carousel-slide" style="width: {{ 100.0 | divided_by: site.data.header_slides.size }}%;" data-src="{{ slide.image | prepend: site.baseurl | prepend: site.url }}">
+        <img src="{{ slide.image | prepend: site.baseurl | prepend: site.url }}" alt="MIPG">
+      </div>
+      {% endfor %}
+    </div>
+    <div class="home-header-carousel-dots" aria-hidden="true"></div>
+  </div>
+    <script>
+      (function() {
+        var carousel = document.getElementById('homeHeaderCarousel');
+        if (!carousel) return;
+        var track = carousel.querySelector('.home-header-carousel-track');
+        var bgImg = carousel.querySelector('.home-carousel-bg img');
+        var dotsWrap = carousel.querySelector('.home-header-carousel-dots');
+        if (!track || !bgImg || !dotsWrap) return;
+        var slides = track.querySelectorAll('.home-header-carousel-slide');
+        var n = slides.length;
+        if (n <= 1) return;
+        for (var i = 0; i < n; i++) {
+          var d = document.createElement('span');
+          d.className = 'home-header-carousel-dot' + (i === 0 ? ' active' : '');
+          d.setAttribute('data-index', i);
+          dotsWrap.appendChild(d);
+        }
+        var dots = dotsWrap.querySelectorAll('.home-header-carousel-dot');
+        var idx = 0;
+        function goTo(k) {
+          idx = (k + n) % n;
+          track.style.transform = 'translateX(-' + idx * (100 / n) + '%)';
+          if (bgImg && slides[idx]) {
+            var src = slides[idx].getAttribute('data-src');
+            if (src) bgImg.src = src;
+          }
+          dots.forEach(function(d, i) { d.classList.toggle('active', i === idx); });
+        }
+        dots.forEach(function(d, i) {
+          d.addEventListener('click', function() { goTo(i); });
+        });
+        setInterval(function() { goTo(idx + 1); }, 5000);
+      })();
+    </script>
+  {% else %}
+  <div class="home-header-carousel home-header-carousel--single">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/header.jpg" alt="MIPG">
+  </div>
+  {% endif %}
+</div>
+
+{% comment %} 下方：About Us 与 News 并排（同一行）{% endcomment %}
+<div class="row home-below-row">
+  <div id="homeid" class="col-sm-8">
+    <h3>About Us</h3>
+    <div class="home-intro">
+      {{ content }}
+    </div>
+  </div>
+  <div class="col-sm-4" id="newsid">
+    {% include news.html %}
+  </div>
+</div>

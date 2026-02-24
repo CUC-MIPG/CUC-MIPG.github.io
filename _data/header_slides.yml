@@ -1,0 +1,8 @@
+# 首页头图轮播：在此列表中添加图片路径（相对站点根目录，如 /images/xxx.jpg）
+# 图片请放在 images 目录下，例如 images/carousel/1.jpg，此处写 /images/carousel/1.jpg
+- image: "/images/headers/header1.jpg"
+- image: "/images/headers/header2.jpg"
+- image: "/images/headers/header3.jpg"
+- image: "/images/headers/header4.jpg"
+- image: "/images/headers/header5.jpg"
+- image: "/images/headers/header6.jpg"
