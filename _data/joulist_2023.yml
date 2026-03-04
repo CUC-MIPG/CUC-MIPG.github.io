@@ -9,3 +9,15 @@
     display: \[Code\]
   highlight: 0
   year: 2023
+
+  - title: "Scalable Face Image Coding via StyleGAN Prior: Towards Compression for Human-Machine Collaborative Vision"
+  authors: Qi Mao, Chongyu Wang, Meng Wang, Shiqi Wang, Ruijie Chen, Libiao Jin, Siwei Ma
+  venue: "IEEE Transcations on Image Processing (TIP)"
+  link:
+    url: https://ieeexplore.ieee.org/document/10372532
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+  highlight: 0
+  year: 2021
