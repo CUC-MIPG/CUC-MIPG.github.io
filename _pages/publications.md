@@ -109,19 +109,5 @@ Papers by MIPG members (Starting 2021)
 {% endfor %}
 
 
-### 2021
-
-<h4 class="pub-section">[Journal]</h4>
-
-{% for publi in site.data.joulist_2021 %}
-<div class="pub-item">
-  <span class="pub-title">{{ publi.title }}</span><br />
-  <span class="pub-authors">{{ publi.authors }}</span><br />
-  <span class="pub-venue"><em>{{ publi.venue }}</em></span><br />
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-  <a href="{{ publi.code.url }}">{{ publi.code.display }}</a>
-</div>
-{% endfor %}
-
 
 
