@@ -112,7 +112,9 @@ permalink: /team/
 </div>
 {% endif %}
 
-### Master's Alumni
+### Alumni
+
+### Master
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni %}
@@ -146,7 +148,7 @@ permalink: /team/
 </div>
 {% endif %}
 
-### Undergraduate Alumni
+### Bachelor
 
 {% assign number_printed = 0 %}
 {% for member in site.data.UnderAlumni %}
