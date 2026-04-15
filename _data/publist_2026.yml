@@ -1,3 +1,15 @@
+- title: "Camera Artist: A Multi-Agent Framework forCinematic Language Storytelling Video Generation"
+  authors: Haobo Hu, Qi Mao, Yuanhang Li, Libiao Jin
+  venue: "The IEEE International Conference on Multimedia and Expo 2026 (ICME 2026)"
+  link:
+    url: https://arxiv.org/abs/2604.09195
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+  highlight: 0
+  year: 2026
+
 - title: "Generative Neural Video Compression via Video Diffusion Prior"
   authors: Qi Mao, Hao Cheng, Tinghan Yang, Libiao Jin, Siwei Ma
   venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (CVPR 2026)"
