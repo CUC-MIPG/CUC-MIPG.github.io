@@ -1,4 +1,16 @@
 
+- title: "HD-Custom:Efficient Hierarchical Disentanglement for Coarse-to-Fine Concept Customization in Subject Video Generation"
+  authors: Yuanhang Li, Qi Mao, Xinyan Xiao, Libiao Jin, Siwei Ma
+  venue: "IEEE Transactions on Circuits and Systems for Video Technology(TCSVT 2026)"
+  link:
+    url: https://doi.org/10.1109/TCSVT.2026.3688304
+    display: \[Paper\]
+  code:
+    url: 
+    display: \[Code\]
+  highlight: 0
+  year: 2026
+  
 - title: "EmoAgent: A Multi-Agent Framework for Diverse Affective Image Manipulation"
   authors: Qi Mao, Haobo Hu, Yujie He, Difei Gao, Haokun Chen, Libiao Jin
   venue: "IEEE Transactions on Affective Computing 2026(TAFFC 2026)"
